@@ -1,0 +1,68 @@
+﻿<pu:WindowX x:Class="VPet.Plugin.NewLook.winSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:ll="clr-namespace:LinePutScript.Localization.WPF;assembly=LinePutScript.Localization.WPF"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:VPet.Plugin.NewLook"
+        xmlns:pu="clr-namespace:Panuon.WPF.UI;assembly=Panuon.WPF.UI"
+        mc:Ignorable="d" Title="{ll:Str 'NewLook - Settings'}" Width="485"
+        MinHeight="420" MaxHeight="420" Height="420"
+        FontSize="16" ResizeMode="NoResize" WindowState="Normal" SizeToContent="Height"
+        pu:WindowXCaption.Background="{DynamicResource DARKPrimary}"
+        pu:WindowXCaption.Foreground="{DynamicResource DARKPrimaryText}"
+        Background="{DynamicResource DARKPrimaryText}" Foreground="{DynamicResource PrimaryText}"
+        Closed="Window_Closed">
+    <FrameworkElement.Resources>
+        <Style x:Key="ThemeTextBlock" TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Grid.ColumnSpan" Value="3" />
+            <Setter Property="Margin" Value="0,0,15,0" />
+        </Style>
+        <Style x:Key="ThemeButton" TargetType="Button">
+            <Setter Property="Background" Value="{DynamicResource SecondaryLight}" />
+            <Setter Property="BorderBrush" Value="{DynamicResource SecondaryDark}" />
+        </Style>
+    </FrameworkElement.Resources>
+
+    <Grid Margin="10,5,10,5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45*" />
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="60*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="{ll:Str 'Hair'}" Style="{DynamicResource ThemeTextBlock}" />
+        <TextBlock Grid.Row="1" Text="{ll:Str 'Skin'}" Style="{DynamicResource ThemeTextBlock}" />
+        <TextBlock Grid.Row="2" Text="{ll:Str 'Eye and L'}" Style="{DynamicResource ThemeTextBlock}" />
+        <TextBlock Grid.Row="3" Text="{ll:Str 'Shirt'}" Style="{DynamicResource ThemeTextBlock}" />
+        <TextBlock Grid.Row="4" Text="{ll:Str 'Shirt Accessories'}" Style="{DynamicResource ThemeTextBlock}" />
+        <TextBlock Grid.Row="5" Text="{ll:Str 'Socks'}" Style="{DynamicResource ThemeTextBlock}" />
+        <TextBlock Grid.Row="6" Text="{ll:Str 'Boots'}" Style="{DynamicResource ThemeTextBlock}" />
+        <Image Grid.Column="1" Grid.RowSpan="7" Grid.Row="0" Width="280" Height="280" x:Name="ImagePreview" Source="/VPet.Plugin.NewLook;component/循环A_000_125.png" Stretch="Fill" Grid.ColumnSpan="2" Margin="100,0,-50,0"/>
+
+        <pu:ColorPicker Grid.Column="1" Grid.Row="0" Tag="Hair" x:Name="ColorPicker0" LostFocus="ChangeColor" Background="Transparent" BorderThickness="0"/>
+        <pu:ColorPicker Grid.Column="1" Grid.Row="1" Tag="Skin" x:Name="ColorPicker1" LostFocus="ChangeColor" Background="Transparent" BorderThickness="0"/>
+        <pu:ColorPicker Grid.Column="1" Grid.Row="2" Tag="EyeAndL" x:Name="ColorPicker2" LostFocus="ChangeColor" Background="Transparent" BorderThickness="0"/>
+        <pu:ColorPicker Grid.Column="1" Grid.Row="3" Tag="Shirt" x:Name="ColorPicker3" LostFocus="ChangeColor" Background="Transparent" BorderThickness="0"/>
+        <pu:ColorPicker Grid.Column="1" Grid.Row="4" Tag="Accessories" x:Name="ColorPicker4" LostFocus="ChangeColor" Background="Transparent" BorderThickness="0"/>
+        <pu:ColorPicker Grid.Column="1" Grid.Row="5" Tag="Socks" x:Name="ColorPicker5" LostFocus="ChangeColor" Background="Transparent" BorderThickness="0"/>
+        <pu:ColorPicker Grid.Column="1" Grid.Row="6" Tag="Boots" x:Name="ColorPicker6" LostFocus="ChangeColor" Background="Transparent" BorderThickness="0"/>
+
+        <Button Content="{ll:Str 'CREATE NEW LOLIS'}" Name="CreateNewLolis" Click="CreateNewVpet" Grid.ColumnSpan="3" Margin="150, 7, 150, 7" Grid.Row="8" Background="{DynamicResource SecondaryLight}" BorderBrush="{DynamicResource SecondaryDark}"/>
+        <TextBlock x:Name="Output" Visibility="Hidden" Grid.Row="9" Grid.ColumnSpan="3" TextAlignment="Center" Margin="5" Foreground="Green" Text="{ll:Str 'Loaded animations: 0/0'}" Style="{DynamicResource ThemeTextBlock}" />
+
+    </Grid>
+</pu:WindowX>

@@ -1,0 +1,230 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VPet.Plugin.NewLook/1.0.0": {
+        "dependencies": {
+          "Dirkster.ColorPickerLib": "1.6.2",
+          "LinePutScript": "1.11.7",
+          "LinePutScript.Localization.WPF": "1.0.7",
+          "Panuon.WPF": "1.1.0",
+          "System.Drawing.Common": "8.0.6",
+          "VPet-Simulator.Core": "1.1.0.20",
+          "VPet-Simulator.Windows.Interface": "1.1.0.20"
+        },
+        "runtime": {
+          "VPet.Plugin.NewLook.dll": {}
+        }
+      },
+      "Dirkster.ColorPickerLib/1.6.2": {
+        "dependencies": {
+          "Dirkster.NumericUpDownLib": "2.4.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/ColorPickerLib.dll": {
+            "assemblyVersion": "1.6.2.0",
+            "fileVersion": "1.6.2.0"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/cs-CZ/ColorPickerLib.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/netcoreapp3.0/de-DE/ColorPickerLib.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/netcoreapp3.0/es-ES/ColorPickerLib.resources.dll": {
+            "locale": "es-ES"
+          },
+          "lib/netcoreapp3.0/fr-FR/ColorPickerLib.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/netcoreapp3.0/hi/ColorPickerLib.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/netcoreapp3.0/id-ID/ColorPickerLib.resources.dll": {
+            "locale": "id-ID"
+          },
+          "lib/netcoreapp3.0/it-IT/ColorPickerLib.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/netcoreapp3.0/ja-JP/ColorPickerLib.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/netcoreapp3.0/nl-NL/ColorPickerLib.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "lib/netcoreapp3.0/zh-CHS/ColorPickerLib.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/netcoreapp3.0/zh-CHT/ColorPickerLib.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Dirkster.NumericUpDownLib/2.4.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/NumericUpDownLib.dll": {
+            "assemblyVersion": "2.4.2.0",
+            "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "LinePutScript/1.11.7": {
+        "runtime": {
+          "lib/net8.0/LinePutScript.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LinePutScript.Localization.WPF/1.0.7": {
+        "dependencies": {
+          "LinePutScript": "1.11.7"
+        },
+        "runtime": {
+          "lib/net6.0/LinePutScript.Localization.WPF.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {},
+      "Panuon.WPF/1.1.0": {
+        "runtime": {
+          "lib/net8.0-windows/Panuon.WPF.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Panuon.WPF.UI/1.2.1.2": {
+        "dependencies": {
+          "Panuon.WPF": "1.1.0"
+        },
+        "runtime": {
+          "lib/net8.0-windows/Panuon.WPF.UI.dll": {
+            "assemblyVersion": "1.2.1.2",
+            "fileVersion": "1.2.1.2"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.6": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.624.26909"
+          }
+        }
+      },
+      "VPet-Simulator.Core/1.1.0.20": {
+        "dependencies": {
+          "LinePutScript": "1.11.7",
+          "LinePutScript.Localization.WPF": "1.0.7",
+          "Panuon.WPF.UI": "1.2.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/VPet-Simulator.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VPet-Simulator.Windows.Interface/1.1.0.20": {
+        "dependencies": {
+          "VPet-Simulator.Core": "1.1.0.20"
+        },
+        "runtime": {
+          "lib/net8.0/VPet-Simulator.Windows.Interface.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VPet.Plugin.NewLook/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dirkster.ColorPickerLib/1.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T1HxT3zI3QPRJtEVx3hkhR9S44Us9Dwfe6xI8V0vbUTI3YcmB5SzI9HTn5RKTggBQ6ksslUUNh9mku64SmMKfQ==",
+      "path": "dirkster.colorpickerlib/1.6.2",
+      "hashPath": "dirkster.colorpickerlib.1.6.2.nupkg.sha512"
+    },
+    "Dirkster.NumericUpDownLib/2.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tqhNM6svNT6RA4husXLnqb5E1tBvfloqsrR4g6Wu2EbnUryxsf4V7roH6PIAeBY4yUl7dO6DUYfBwje5/Np3tA==",
+      "path": "dirkster.numericupdownlib/2.4.2",
+      "hashPath": "dirkster.numericupdownlib.2.4.2.nupkg.sha512"
+    },
+    "LinePutScript/1.11.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7a1lbJa5UiQ2Bbg3J4yUOh7z7onYzndvM0jgRLopGvw5dCkqEy23/LY1/cFAp7S53cwV/hFP2VQ7LDz+Il2FmA==",
+      "path": "lineputscript/1.11.7",
+      "hashPath": "lineputscript.1.11.7.nupkg.sha512"
+    },
+    "LinePutScript.Localization.WPF/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n9Hh57jE8pNwzFypx2RUu6hYFMotZ+RDQYvpHwtHojLrFnZ35zJRgTXK3WKtYZHn7Ldm17+Q7NKQnXG1hkSrnQ==",
+      "path": "lineputscript.localization.wpf/1.0.7",
+      "hashPath": "lineputscript.localization.wpf.1.0.7.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "Panuon.WPF/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NmA0O5qDwVmc1mh97XNL6HBuD0mqeZhbq0uW+R9pZ0AlP0DuR/0bZP/xvDYXfeHx7p8ww4/ZwHK/LRdyCcip+A==",
+      "path": "panuon.wpf/1.1.0",
+      "hashPath": "panuon.wpf.1.1.0.nupkg.sha512"
+    },
+    "Panuon.WPF.UI/1.2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lup+CVZ1ubM1jdbjtb/eJMcFMvLRg6BqvRjMJJwDzGBp1dACC1L5RNS6OuS8mm6N1QbF2q7KaULnAkYH+uzQXg==",
+      "path": "panuon.wpf.ui/1.2.1.2",
+      "hashPath": "panuon.wpf.ui.1.2.1.2.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aSwRnJzz6fZ73JvWMMG0KvBwOnXsBTFtfHLriQyAPrDIZ+NrDfl15GWbO/A35k0dtH77D7jfxzEcFF7RONtU/w==",
+      "path": "system.drawing.common/8.0.6",
+      "hashPath": "system.drawing.common.8.0.6.nupkg.sha512"
+    },
+    "VPet-Simulator.Core/1.1.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lxh+VvQ5TkNj6uGwnHnYL7mkDmi4PRscFPo/1Ty+mcRhT11qg8dL5qnb4ne3JkpOBwDS3xnQNYRESQwixomg/g==",
+      "path": "vpet-simulator.core/1.1.0.20",
+      "hashPath": "vpet-simulator.core.1.1.0.20.nupkg.sha512"
+    },
+    "VPet-Simulator.Windows.Interface/1.1.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JBPiQ7+8NWUkZQ5OgbF6lQRdyG/VcaskrqLTFjKcoxszHH6XDItLHkP/mQZ5YyX+simE8v2f7e36TUp6bRbnMw==",
+      "path": "vpet-simulator.windows.interface/1.1.0.20",
+      "hashPath": "vpet-simulator.windows.interface.1.1.0.20.nupkg.sha512"
+    }
+  }
+}
