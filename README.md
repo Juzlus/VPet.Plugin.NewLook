@@ -7,6 +7,15 @@ A new look for your pet. 🎨
 
  [Page on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3281444119).
 
+## ✨ Usage (NuGet package)
+- [Dirkster.ColorPickerLib](https://github.com/Dirkster99/ColorPickerLib)
+- [LinePutScript](https://github.com/LorisYounger/LinePutScript?tab=readme-ov-file)
+- [LinePutScript.Localization.WPF](https://github.com/LorisYounger/LinePutScript.Localization.WPF)
+- [Panuon.WPF](https://github.com/Panuon/Panuon.WPF)
+- [System.Drawing.Common](https://github.com/dotnet/winforms)
+- [VPet-Simulator.Core](https://github.com/LorisYounger/VPet)
+- [VPet-Simulator.Windows.Interface](https://github.com/LorisYounger/VPet)
+  
 ## 🔥 Screenshots
 
 ![Screenshot1](https://steamuserimages-a.akamaihd.net/ugc/2538423216285891520/663838A101C4CDDE79206262AC09B4DE0ED53540/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false)
